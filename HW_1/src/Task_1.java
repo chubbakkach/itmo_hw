@@ -1,4 +1,4 @@
-public class task_1 {
+public class Task_1 {
     public static void main(String[] args) {
         final int min = 1; // Минимальное число для диапазона
         final int max = 99; // Максимальное число для диапазона
