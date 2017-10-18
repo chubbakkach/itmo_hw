@@ -1,1 +1,11 @@
-<code_scheme name="Default" />
+<code_scheme name="Default">
+  <codeStyleSettings language="JAVA">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <option name="SPACE_WITHIN_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_METHOD_CALL_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_METHOD_PARENTHESES" value="true" />
+    <option name="SPACE_BEFORE_METHOD_CALL_PARENTHESES" value="true" />
+    <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
+    <option name="SPACE_BEFORE_TYPE_PARAMETER_LIST" value="true" />
+  </codeStyleSettings>
+</code_scheme>
