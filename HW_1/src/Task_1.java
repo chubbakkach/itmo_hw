@@ -1,18 +1,18 @@
 public class Task_1 {
-    public static void main(String[] args) {
+    public static void main ( String[] args ) {
         final int min = 1; // Минимальное число для диапазона
         final int max = 99; // Максимальное число для диапазона
-        int q = rnd(min, max);
-        int w = rnd(min, max);
-        System.out.println(q+" / "+w+" = "+(q/w)+" и "+(q%w)+" в остатке");
+        int q = rnd ( min, max );
+        int w = rnd ( min, max );
+        System.out.println ( q + " / " + w + " = " + ( q / w ) + " и " + ( q % w ) + " в остатке" );
     }
+
     /**
      * Метод получения псевдослучайного целого числа от min до max (включая max);
      */
-    public static int rnd(int min, int max)
-    {
+    public static int rnd ( int min, int max ) {
         max -= min;
-        return (int) (Math.random() * ++max) + min;
+        return (int) ( Math.random () * ++max ) + min;
     }
 }
 
